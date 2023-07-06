@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* navbar section start */
+.menu-container{
+background-color: rgb(31, 30, 30);
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+
+}
+
+.logoimg{
+width:150px;
+padding:15px;
+}
+.menu{
+color:white;
+display:flex;
+list-style: none;
+}
+.item{
+   margin-right: 15px;
+   padding:15px; 
+   font-size:1.2rem;
+   cursor: pointer;
+   transition: all 0.4s;
+}
+.item:hover{
+    color:black;
+    background-color: rgb(141, 136, 130);
+}
+@media screen and (max-width:600px){
+    .item{
+        margin-right:5px;
+        padding:5px;
+    }
+    
+    
+}
+/* navbar section end */
