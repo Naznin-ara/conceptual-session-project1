@@ -223,7 +223,7 @@ font-size: 18px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    box-shadow: 0px 2px 8px ;
+    box-shadow: 0px 0px 60px -10px ;
     border-radius: 10px;
     transition: 0.5s;
     transform-origin: center;
